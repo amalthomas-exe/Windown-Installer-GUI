@@ -24,7 +24,7 @@ Just type in the following command inside the project folder<br>
 ```python main.py```
 
 ### Executables
-Now this is the tricky part :). As of now , there is no good tool to create binaries from python scripts. The best tool so far ([Pyinstaller](https://pypi.org/project/pyinstaller)), bundles a full blown python interpreted along with the executable. As a result, for a project size of just 22 kb, the resulting binary is about 300-400 MB. 
+Now this is the tricky part :) . As of now , there is no good tool to create binaries from python scripts. The best tool so far ([Pyinstaller](https://pypi.org/project/pyinstaller)), bundles a full blown python interpreted along with the executable. As a result, for a project size of just 22 kb, the resulting binary is about 300-400 MB. 
 
 So for now, we are not planning to ship the executables for these programs. You will have to download the python interpreter yourself. You may skip the trouble if you own a Linux powered system, because they come with python3 by default. 
 
