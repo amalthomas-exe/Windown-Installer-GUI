@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>win11.png</file>
+    <file>microsoft.png</file>
+  </qresource>
+</RCC>
