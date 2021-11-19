@@ -28,6 +28,12 @@ Now this is the tricky part :). As of now , there is no good tool to create bina
 
 So for now, we are not planning to ship the executables for these programs. You will have to download the python interpreter yourself. You may skip the trouble if you own a Linux powered system, because they come with python3 by default. 
 
+
+### Screenshots
+![main](readme_images/main.png)
+![agreement](readme_images/agreement.png)
+![downloadandinstall](readme_images/downloadandinstall.png)
+
 ### Issues
 Please report any bugs to the issues tab.
 
