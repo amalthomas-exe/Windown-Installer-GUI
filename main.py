@@ -3,7 +3,6 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QDialog,QApplication
 from pages.initialMessagePage import *
 import psutil
-import time
 import platform
 from licenseVerification import LicenseVerification
 from licenseAgreement import LicenseArgeement
@@ -106,6 +105,7 @@ class MainWindow(QDialog): #initialise the Qt5 GUI
 
     def finalmessage(self):
         finalmessage.buttonRestart.clicked.connect(self.rickRoll)
+        finalmessage.buttonQuit.clicked.connect(self.quitPage)
         
     def rickRoll(self):
         webbrowser.get().open("https://www.youtube.com/watch?v=dQw4w9WgXcQ") #Never gonna give you up :)"
